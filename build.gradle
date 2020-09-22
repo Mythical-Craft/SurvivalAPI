@@ -11,7 +11,8 @@ repositories {
 }
 
 dependencies {
+    compileOnly 'com.github.Mythical-Craft:DataAPI:1.1.0'
+    compileOnly 'com.github.Mythical-Craft:MythLib:1.1.0:shaded'
     compileOnly 'com.destroystokyo.paper:paper-api:1.16.2-R0.1-SNAPSHOT'
-    compile fileTree(dir: '../depedencies', include: '*.jar')
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compileOnly fileTree(dir: '../depedencies', include: '*.jar')
 }

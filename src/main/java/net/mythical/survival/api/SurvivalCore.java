@@ -1,7 +1,7 @@
 package net.mythical.survival.api;
 
 import net.mythical.survival.api.data.Data;
-import net.mythical.survival.api.module.Module;
+import net.mythical.survival.api.module.ModuleManager;
 import net.mythical.survival.api.utils.Util;
 
 public interface SurvivalCore {
@@ -10,5 +10,5 @@ public interface SurvivalCore {
 
     Data getData();
 
-    Module getModule();
+    ModuleManager getModule();
 }
